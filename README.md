@@ -28,13 +28,15 @@ We maintain a fully researched, type-safe, and modular **Zero-Cost Multicloud In
 ---
 
 ## 🤖 AI-Augmented Productivity & Modern Workflow
+## 🤖 AI-Augmented Productivity & Zero-Cost Sovereign AI Stack
 
-Leveraging next-generation AI tools and agentic workflows to multiply output, accelerate software synthesis, and optimize professional goals:
+Leveraging next-generation AI tools, multi-provider free tiers, and agentic workflows driven by **Jules** to maximize developer productivity at $0 API cost *(see [`AI_STACK.md`](./AI_STACK.md) and [`AI_WORKFLOW.md`](./AI_WORKFLOW.md))*:
 
-* **Autonomous Agent Pipelines**: End-to-end task decomposition, automated code generation, refactoring, and test-driven verification.
-* **Contextual Knowledge Retrieval**: Utilizing LLMs for rapid synthesis of complex domain literature (Information Theory, Game Theory, Linguistics, System Architecture).
-* **AI-Assisted System Architecture**: Rapid prototyping of functional fullstack models, type-safe API boundaries, and low-level system designs.
-* **Human-in-the-Loop Governance**: Strict OpSec, verification procedures, and deterministic build validation over AI-generated software artifacts.
+* **Jules Autonomous Agent Pipeline**: End-to-end deep planning, code generation, refactoring, and deterministic test verification.
+* **Sub-Second Multi-Provider Inference**: Ultra-fast execution via Groq & Cerebras LPUs (300–2000 tok/s) paired with Gemini 2.0 Flash (1M context window) and OpenRouter fallback routing.
+* **Knowledge Retrieval & Web Search**: Real-time factual research via Tavily, Exa.ai, Jina Reader, and Qdrant/Pinecone vector indexes.
+* **Sovereign Local Fallback**: Zero-leakage offline fallback capabilities using local Ollama, llama.cpp, and embedded vector databases (LanceDB/DuckDB).
+* **Human-in-the-Loop Governance**: Strict OpSec, pre-commit verification procedures, and deterministic GPG signing.
 
 ---
 
