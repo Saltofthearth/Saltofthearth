@@ -32,6 +32,7 @@ Detailed specifications and architectural blueprints for research and engineerin
 * 📖 [**`TAXONOMY.md`**](./TAXONOMY.md) — Hierarchical Research Taxonomy & 3-Layer OS Architecture (`@rt`, `@ux`, `@md`).
 * ⚡ [**`AI_STACK.md`**](./AI_STACK.md) — Multi-Provider Zero-Cost Sovereign AI Tooling Full Stack & Quota Router Specification.
 * 🤖 [**`AI_WORKFLOW.md`**](./AI_WORKFLOW.md) — Autonomous Development Workflow, Pre-Commit Guardrails & Jules Agent Pipeline.
+* 📊 [**`STATUS_REPORT.md`**](./STATUS_REPORT.md) — Status Report: Spectrum of Work, Software Goods, Services & Development Paths.
 
 ---
 
