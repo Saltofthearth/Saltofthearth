@@ -53,18 +53,24 @@ This document outlines the workflow and tool integration framework leveraging mo
 
 ## 🧰 Modern Tooling Stack Integration
 
-### 1. Autonomous Agent Frameworks
-- **Task Decomposition**: Breaking complex feature requests into discrete, verifiable sub-tasks.
-- **Context-Aware Refactoring**: Reading codebase structure, applying git diffs, and verifying code integrity via automated loops.
-- **Pre-Commit Guardrails**: Strict compliance checks, style enforcement, and static analysis prior to finalizing changes.
+*(For complete technical specifications, provider quotas, and multi-provider router configuration, see [`AI_STACK.md`](./AI_STACK.md)).*
 
-### 2. Contextual Research & Literature Processing
-- Indexing domain literature across **Information Theory**, **Game Theory**, **Linguistics**, and **HCI**.
-- Summarizing technical RFCs, hardware data sheets (RISC-V, Azeron, Sensors), and protocol specifications.
+### 1. Autonomous Agent Execution (Jules Driven)
+- **Task Decomposition & Planning**: Deep planning mode with multi-turn user confirmation before execution loops.
+- **Context-Aware Refactoring**: Repository-wide code structure analysis, git diff application, and local test execution.
+- **Pre-Commit Guardrails**: Mandatory pre-commit verification tool execution, linting, formatting, and safety checks.
 
-### 3. Multimodal HCI & Interface AI Integration
-- **Speech-to-Intent Pipelines**: Local LLM/whisper integration for hands-free terminal and TUI navigation.
-- **Predictive Power & Resource Allocation**: Utilizing lightweight models to predict system workload, battery degradation, and storage access patterns.
+### 2. Multi-Provider Zero-Cost API Routing
+- **LiteLLM Dynamic Router**: Load balances requests across Groq, Cerebras, Google Gemini, and OpenRouter free quotas.
+- **Automatic Fallback Matrix**: Seamless fallback from sub-second LPUs (Groq/Cerebras) to 1M context window engines (Gemini) and local offline runtimes (Ollama).
+
+### 3. Contextual Research & Literature Processing
+- **Real-Time Web & Neural Search**: Search integration via Tavily AI, Exa.ai, and Jina AI Reader (`r.jina.ai`).
+- **Domain Knowledge Indexing**: Indexing domain literature across **Information Theory**, **Game Theory**, **Linguistics**, and **HCI**.
+
+### 4. Multimodal HCI & Interface AI Integration
+- **Speech-to-Intent Pipelines**: Low-latency voice control with Groq Whisper API (`whisper-large-v3`) and local Faster-Whisper.
+- **Predictive Systems & Telemetry**: Lightweight models predicting workload, power gating, and storage prefetching patterns.
 
 ---
 
