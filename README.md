@@ -1,7 +1,7 @@
 # 👋 Welcome to My GitHub Profile
 
 > **Sovereign Systems Engineer, Computational Linguist & Systems Researcher**
-> *Exploring the intersection of Functional Programming, Information & Game Theory, Multimodal HCI, Digital Sovereignty, and AI-Augmented Engineering.*
+> *Exploring the intersection of Functional Programming, Information & Game Theory, Multimodal HCI, Digital Sovereignty, Zero-Cost Multicloud Architecture, and AI-Augmented Engineering.*
 
 ---
 
@@ -82,6 +82,17 @@ nix develop .#md    # System domain & specialized modules shell
 
 ---
 
+## ⚡ Zero-Cost Sovereign Multicloud Infrastructure
+
+We maintain a fully researched, type-safe, and modular **Zero-Cost Multicloud Infrastructure Specification** powered by **OpenTofu**. This system orchestrates always-free tiers, platform credits, and dynamic quota refresh scheduling across major cloud and API providers.
+
+* **📜 Multicloud Research Matrix**: [`docs/MULTICLOUD_RESEARCH.md`](docs/MULTICLOUD_RESEARCH.md) — Exhaustive analysis of always-free limits across OCI, GCP, AWS, Cloudflare, Supabase, Groq, Google AI Studio, and B2.
+* **🏗️ OpenTofu IaC Modules**: [`infrastructure/opentofu/`](infrastructure/opentofu/) — Modular OpenTofu configurations maximizing free allocations with zero-dollar spending limits and cost guardrails.
+* **⏳ Quota Refresh & Scheduler**: [`docs/QUOTA_REFRESH_SCHEDULE.md`](docs/QUOTA_REFRESH_SCHEDULE.md) & [`infrastructure/scripts/quota_scheduler.py`](infrastructure/scripts/quota_scheduler.py) — Rotation algorithms and reset timing synchronization (hourly, daily, monthly) for high availability without cloud spend.
+
+---
+
+## 🤖 AI-Augmented Productivity & Modern Workflow
 ## 🤖 AI-Augmented Productivity & Zero-Cost Sovereign AI Stack
 
 Leveraging next-generation AI tools, multi-provider free tiers, and agentic workflows driven by **Jules** to maximize developer productivity at $0 API cost *(see [`AI_STACK.md`](./AI_STACK.md) and [`AI_WORKFLOW.md`](./AI_WORKFLOW.md))*:
@@ -135,6 +146,7 @@ Research Framework ├── 🧠 Information Theory & Game Theory ├── �
 <summary><b>5. 🌐 Digital Sovereignty, OpSec, Self-Hosting & DeFi</b></summary>
 
 - Zero-trust architecture, threat modeling, and operational security (OpSec)
+- Zero-cost multicloud infrastructure orchestration (OCI, GCP, AWS, Cloudflare, OpenTofu)
 - Decentralized finance (DeFi), cryptographic primitives, and smart contract safety
 - Sovereign self-hosting infrastructure, mesh networks, and encrypted communication channels
 </details>
@@ -162,6 +174,7 @@ Research Framework ├── 🧠 Information Theory & Game Theory ├── �
 
 | Layer / Domain | Projects & Technologies |
 | :--- | :--- |
+| **Infrastructure & IaC** | [OpenTofu](https://opentofu.org/) • [Terraform](https://www.terraform.io/) • [Cloudflare Workers](https://workers.cloudflare.com/) |
 | **Firmware & Bootstrapping** | [coreboot](https://www.coreboot.org/) • [RISC-V](https://riscv.org/) • [Limine](https://limine-bootloader.org/) • [Booster](https://github.com/anatol/booster) • [Toybox](https://landley.net/toybox/) |
 | **OS, Init & System Architecture** | [OpenBSD](https://www.openbsd.org/) • [Skarnet s6 Suite](https://skarnet.org/software/s6/) • [Nix / NixOS](https://nixos.org/) • [ZFS](https://openzfs.org/) |
 | **Desktop & Audio/Video Stack** | [Wayland](https://wayland.freedesktop.org/) • [PipeWire](https://pipewire.org/) |
@@ -172,7 +185,7 @@ Research Framework ├── 🧠 Information Theory & Game Theory ├── �
 
 ## 🛠️ Tech Stack & Tooling
 
-Languages & Paradigms: Rust | Haskell | OCaml | TypeScript | Elixir | C / C++ | Nix Systems & OS: OpenBSD | NixOS | Linux | Skarnet s6 | ZFS UX & Interaction: TUI / Curses | Wayland | PipeWire | Speech Engines | Azeron Security & Privacy: GPG / PGP | VeraCrypt | Matrix | Tor / I2P | WireGuard AI & Automation: Autonomous Agents | LLM Tooling | CI/CD | GitHub Actions
+Languages & Paradigms: Rust | Haskell | OCaml | TypeScript | Elixir | C / C++ | Nix | OpenTofu Infrastructure & OS: OpenTofu | Cloudflare | OCI | GCP | AWS | OpenBSD | NixOS | Linux UX & Interaction: TUI / Curses | Wayland | PipeWire | Speech Engines | Azeron Security & Privacy: GPG / PGP | VeraCrypt | Matrix | Tor / I2P | WireGuard AI & Automation: Autonomous Agents | LLM Tooling | CI/CD | GitHub Actions
 
 
 ---

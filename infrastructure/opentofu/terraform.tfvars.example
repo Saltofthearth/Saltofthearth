@@ -1,0 +1,29 @@
+# Example terraform.tfvars configuration for Zero-Cost Multicloud Setup
+# Copy this file to `terraform.tfvars` and update with your credentials.
+
+environment = "production"
+
+# OCI Credentials
+oci_tenancy_ocid     = "ocid1.tenancy.oc1..exampletenancy"
+oci_user_ocid        = "ocid1.user.oc1..exampleuser"
+oci_fingerprint      = "20:3b:97:13:55:1c:5b:0d:d3:37:33:50:52:03:d2:9d"
+oci_private_key_path = "~/.oci/oci_api_key.pem"
+oci_region           = "us-ashburn-1"
+oci_compartment_ocid = "ocid1.compartment.oc1..examplecompartment"
+oci_ssh_public_key   = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3..."
+
+# GCP Credentials
+gcp_project_id = "zero-cost-multicloud-project"
+gcp_region     = "us-central1"
+gcp_zone       = "us-central1-a"
+
+# AWS Credentials
+aws_region = "us-east-1"
+
+# Cloudflare Credentials
+cloudflare_api_token  = "v1.0-example-token-cloudflare"
+cloudflare_account_id = "0123456789abcdef0123456789abcdef"
+
+# GitHub Credentials
+github_token = "ghp_ExampleGitHubPersonalAccessToken12345"
+github_owner = "Saltofthearth"
