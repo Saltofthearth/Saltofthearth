@@ -1,6 +1,6 @@
 # 🤖 AI-Augmented Productivity & Modern Development Workflow
 
-This document outlines the workflow and tool integration framework leveraging modern AI tools, autonomous agents, and language models to accelerate software engineering, research synthesis, and professional goals.
+This document outlines the workflow and tool integration framework leveraging modern AI tools, autonomous agents, and language models to accelerate software engineering, research synthesis, and professional goals—integrated into the 3-layer system architecture *(see [`TAXONOMY.md`](./TAXONOMY.md))*.
 
 ---
 
@@ -15,6 +15,7 @@ This document outlines the workflow and tool integration framework leveraging mo
 
 ## 🔄 Agentic Development Workflow
 
+```
            +----------------------------------+
            |  Human Operator / Researcher     |
            |  (Goals, Specs, OpSec Policy)   |
@@ -47,11 +48,11 @@ This document outlines the workflow and tool integration framework leveraging mo
            |  Final Human Audit & Signing     |
            |  (GPG Signed Commit & Push)      |
            +----------------------------------+
-
+```
 
 ---
 
-## 🧰 Modern Tooling Stack Integration
+## 🧰 System Layer Integration
 
 *(For complete technical specifications, provider quotas, and multi-provider router configuration, see [`AI_STACK.md`](./AI_STACK.md)).*
 
@@ -66,9 +67,9 @@ This document outlines the workflow and tool integration framework leveraging mo
 
 ### 3. Contextual Research & Literature Processing
 - **Real-Time Web & Neural Search**: Search integration via Tavily AI, Exa.ai, and Jina AI Reader (`r.jina.ai`).
-- **Domain Knowledge Indexing**: Indexing domain literature across **Information Theory**, **Game Theory**, **Linguistics**, and **HCI**.
+- **Domain Knowledge Indexing**: Indexing domain literature across the 7 Research Pillars in [`TAXONOMY.md`](./TAXONOMY.md).
 
-### 4. Multimodal HCI & Interface AI Integration
+### 4. Multimodal HCI & Interface AI Integration (`@ux`)
 - **Speech-to-Intent Pipelines**: Low-latency voice control with Groq Whisper API (`whisper-large-v3`) and local Faster-Whisper.
 - **Predictive Systems & Telemetry**: Lightweight models predicting workload, power gating, and storage prefetching patterns.
 
