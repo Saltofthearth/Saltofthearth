@@ -2,6 +2,8 @@
 
 This document defines the architectural specification, provider taxonomy, quota limits, and multi-provider failover routing strategy for the **Zero-Cost Sovereign AI Tooling Full Stack**.
 
+For the production integration specification connecting off-the-shelf open-source projects (Aider, MCP/FastMCP, DSPy, Instructor, LiteLLM, LanceDB) under a strict No-Credit-Card / No-ID constraint, see **[`docs/AI_AUTOMATION_SPEC.md`](./docs/AI_AUTOMATION_SPEC.md)**.
+
 Designed for high-throughput engineering, multimodal HCI, and autonomous agent orchestration driven by **Jules** alongside open-source local and cloud-free tier infrastructure.
 
 ---
