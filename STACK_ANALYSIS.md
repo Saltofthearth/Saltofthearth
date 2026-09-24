@@ -98,15 +98,18 @@ Sovereign OS Taxonomy
 
 ---
 
-## 🛠️ Summary of Recommended Enhancements
+## 🎯 Priority Matrix & Summary of Recommended Enhancements
 
-| Layer | Priority | Component | Enhancement Description |
+All enhancements are aligned with the repository's **Hierarchy of Priority Work** *(see [`ROADMAP.md`](./ROADMAP.md))*:
+
+| Pillar | Priority Level | Component | Enhancement Description |
 | :--- | :--- | :--- | :--- |
-| `@rt/@cmd` | High | `init` | Provide s6 declarative service definition templates for non-systemd init. |
-| `@rt/@cmd` | High | `fs` | Implement ZFS snapshot integration on Nix generation switches. |
-| `@ux` | Medium | `audio` / `tui` | Build PipeWire -> Speech-to-Intent CLI bridge script. |
-| `@ux` | Medium | `gui` | Map Azeron analog input bindings for Wayland tiling compositors. |
-| `@md` | Low | `memory` | Predictive storage tiering daemon for cold storage / ZFS dataset management. |
+| **Pillar 1: Repo Architecture** | High (P1) | `@rt/@cmd/init` | Provide `s6` declarative service definition templates for non-systemd init. |
+| **Pillar 1: Repo Architecture** | High (P1) | `@rt/@cmd/fs` | Implement ZFS snapshot integration on Nix generation switches. |
+| **Pillar 1: Repo Architecture** | High (P1) | Infrastructure | OpenTofu module validation and zero-cost cloud allocation testing. |
+| **Pillar 2: AI Automation** | Medium (P2) | `@ux/audio` + `@md/ai` | Build PipeWire -> Speech-to-Intent CLI bridge script with `whisper.cpp`. |
+| **Pillar 2: AI Automation** | Medium (P2) | AI Router | Finalize LiteLLM multi-provider zero-cost failover routing proxy. |
+| **Pillar 2: AI Automation** | Low (P2) | `@ux/gui` | Map Azeron analog input bindings for Wayland tiling compositors. |
 
 ---
 

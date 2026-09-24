@@ -5,6 +5,24 @@
 
 ---
 
+## 🗺️ Hierarchy of Priority Work & Strategic Roadmap
+
+To maximize engineering productivity and maintain absolute clarity on repository goals, work in this repository is structured into two core priority pillars:
+
+1. **🏛️ PRIORITY #1: Repository Architecture**
+   * Declarative OS Taxonomy (`@rt`, `@ux`, `@md`) via pure Nix Flakes.
+   * Low-level substrate, kernel/boot parameters, non-systemd init (`s6`), and OpenZFS filesystem hooks.
+   * Zero-cost multicloud infrastructure modules (`infrastructure/opentofu/`) and automated quota refresh scheduling (`infrastructure/scripts/quota_scheduler.py`).
+
+2. **🤖 PRIORITY #2: AI Automation**
+   * Autonomous agent orchestration pipeline driven by **Jules**.
+   * Multi-provider zero-cost LLM router (Groq, Cerebras, Gemini 2.0 Flash, OpenRouter) with automatic rate-limit failover and sovereign local fallback (`Ollama` / `llama.cpp`).
+   * Knowledge retrieval RAG (Qdrant, Pinecone, LanceDB) and web documentation scraping (Tavily, Exa, Jina AI Reader).
+
+*For the complete breakdown of immediate tasks, gap analyses, and action matrices, inspect [`ROADMAP.md`](./ROADMAP.md).*
+
+---
+
 ## 🚀 Sovereign OS Taxonomy Stack Demo & Nix Architecture
 
 A declarative demo of the Sovereign OS stack architecture managed purely via the **Nix package manager** and **Flakes** (without requiring full NixOS).
