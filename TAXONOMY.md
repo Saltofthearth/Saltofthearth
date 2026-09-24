@@ -28,7 +28,7 @@ The operating system environment follows a 3-layer declarative taxonomy managed 
 ```
 
 ### 1. `@rt` — Runtime Substrate & Core Utilities
-- **Runtime Environment**: Core POSIX substrate, shell environments (Zsh/Bash/Fish), binary toolchains, environment environment drivers.
+- **Runtime Environment**: Core POSIX substrate, shell environments (Zsh/Bash/Fish), binary toolchains, hardware/system drivers.
 - **`@cmd` Userland Utilities**: High-performance Rust/C CLI toolings (`ripgrep`, `fd`, `eza`, `bat`, `fzf`, `jq`, `git`, `gnupg`).
 - **Nix Declarative Substrate**: Nix Flakes & Home Manager modules anchoring tool versions deterministically across host distributions (Linux, OpenBSD, macOS).
 

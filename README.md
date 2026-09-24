@@ -30,6 +30,7 @@
 Detailed specifications and architectural blueprints for research and engineering endeavors are organized into dedicated context files:
 
 * 📖 [**`TAXONOMY.md`**](./TAXONOMY.md) — Hierarchical Research Taxonomy & 3-Layer OS Architecture (`@rt`, `@ux`, `@md`).
+* 🗺️ [**`ROADMAP.md`**](./ROADMAP.md) — Strategic Roadmap, Development Phases & Domain Milestones.
 * ⚡ [**`AI_STACK.md`**](./AI_STACK.md) — Multi-Provider Zero-Cost Sovereign AI Tooling Full Stack & Quota Router Specification.
 * 🤖 [**`AI_WORKFLOW.md`**](./AI_WORKFLOW.md) — Autonomous Development Workflow, Pre-Commit Guardrails & Jules Agent Pipeline.
 
@@ -70,6 +71,17 @@ Autonomous engineering workflows leverage multi-provider free tiers driven by **
 * **Massive Context Reasoning**: Gemini 2.0 Flash (1M context window) for repository-wide analysis and document processing.
 * **Dynamic Failover Router**: LiteLLM dynamic key rotation and fallback to OpenRouter free models and offline local runtimes (`Ollama`/`llama.cpp`).
 * **Deterministic Guardrails**: Pre-commit verification, linting, unit testing, and human GPG signature audits before commit approval.
+
+---
+
+### 🗺️ Strategic Roadmap & Milestones Overview
+
+*(For complete milestones and tracking, see [`ROADMAP.md`](./ROADMAP.md))*
+
+* **Phase I (`@rt`)**: Declarative Nix Flakes workstation environments & deterministic POSIX toolchains.
+* **Phase II (`@ux`)**: Multimodal interaction engine—Wayland window management, PipeWire audio graphs & Azeron keypad keymaps.
+* **Phase III (`@md`)**: Sovereign AI & autonomous agent orchestration with LiteLLM free tier router & offline vector search.
+* **Phase IV (Research)**: Formal type theory verification pipelines, category theory research & predictive systems management.
 
 ---
 
