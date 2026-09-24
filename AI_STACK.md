@@ -145,3 +145,4 @@ router_settings:
 - **CLI & TUI Tooling**:
   - `aider` / `continue.dev` configured to point to local LiteLLM proxy port (`http://localhost:4000`).
   - `jina reader` and `tavily` integrated for live documentation scraping during software design loops.
+- **Zero-Verification Resource Router (`infrastructure/scripts/zero_cost_resource_router.py`)**: Evaluates active credentials across no-ID, no-CC free APIs (Google AI Studio, Groq, Cerebras, Cloudflare) and public no-auth endpoints (Jina Reader, DuckDuckGo) to select optimal $0 routes.
