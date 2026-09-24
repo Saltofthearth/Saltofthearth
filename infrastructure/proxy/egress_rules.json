@@ -1,0 +1,48 @@
+{
+  "firewall_version": "1.0",
+  "policy": "strict_egress_allowlist",
+  "allowed_destinations": [
+    {
+      "domain": "generativelanguage.googleapis.com",
+      "category": "llm_inference",
+      "required_env_key": "GEMINI_API_KEY",
+      "max_requests_per_minute": 15
+    },
+    {
+      "domain": "api.groq.com",
+      "category": "llm_inference",
+      "required_env_key": "GROQ_API_KEY",
+      "max_requests_per_minute": 30
+    },
+    {
+      "domain": "api.cerebras.ai",
+      "category": "llm_inference",
+      "required_env_key": "CEREBRAS_API_KEY",
+      "max_requests_per_minute": 30
+    },
+    {
+      "domain": "openrouter.ai",
+      "category": "llm_inference",
+      "required_env_key": "OPENROUTER_API_KEY",
+      "max_requests_per_minute": 20
+    },
+    {
+      "domain": "r.jina.ai",
+      "category": "web_scraping",
+      "required_env_key": null,
+      "max_requests_per_minute": 60
+    },
+    {
+      "domain": "html.duckduckgo.com",
+      "category": "web_search",
+      "required_env_key": null,
+      "max_requests_per_minute": 30
+    }
+  ],
+  "blocked_actions": [
+    "raw_card_number_transmission",
+    "government_id_document_upload",
+    "unencrypted_http_egress",
+    "unauthorized_ip_binding"
+  ]
+}

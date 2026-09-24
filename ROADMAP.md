@@ -68,6 +68,7 @@ Hierarchy of Priority Work
 | **Priority 1** | `@rt/@cmd` | ZFS Snapshot Hooks | **Active**: Implement build-time ZFS auto-snapshot scripts for Nix profile generations. |
 | **Priority 1** | IaC / Infrastructure | OpenTofu IaC Validation | **Active**: Validate zero-cost cloud allocation modules in `infrastructure/opentofu/`. |
 | **Priority 2** | `@ux` + `@md` | PipeWire -> Whisper Bridge | **Next**: Build low-latency speech-to-intent CLI daemon bridging PipeWire audio to Whisper.cpp. |
+| **Priority 2** | AI Stack | Zero-Cost No-ID Resource Router | **Done**: Added `zero_cost_resource_router.py` & `ZERO_COST_RESOURCE_MAPPING.md` mapping easily acquirable web resources with $0 cost and 0 ID verification. |
 | **Priority 2** | AI Stack | LiteLLM Failover Router | **Next**: Finalize local LiteLLM proxy configuration with automatic Groq/Gemini/Ollama failover. |
 | **Priority 2** | `@ux` + `@md` | Azeron Wayland Mappings | **Backlog**: Map chorded keypad analog thumbstick to Sway/Hyprland window actions. |
 

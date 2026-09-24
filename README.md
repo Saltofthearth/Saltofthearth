@@ -105,6 +105,8 @@ nix develop .#md    # System domain & specialized modules shell
 We maintain a fully researched, type-safe, and modular **Zero-Cost Multicloud Infrastructure Specification** powered by **OpenTofu**. This system orchestrates always-free tiers, platform credits, and dynamic quota refresh scheduling across major cloud and API providers.
 
 * **📜 Multicloud Research Matrix**: [`docs/MULTICLOUD_RESEARCH.md`](docs/MULTICLOUD_RESEARCH.md) — Exhaustive analysis of always-free limits across OCI, GCP, AWS, Cloudflare, Supabase, Groq, Google AI Studio, and B2.
+* **🌐 Zero-Verification Resource Mapping**: [`docs/ZERO_COST_RESOURCE_MAPPING.md`](docs/ZERO_COST_RESOURCE_MAPPING.md) & [`infrastructure/scripts/zero_cost_resource_router.py`](infrastructure/scripts/zero_cost_resource_router.py) — Complete specification and router for easily acquirable web resources operating with $0 cost and zero credit card/ID verification.
+* **🛡️ Egress Firewall & Proxy Spec**: [`docs/API_PROXY_FIREWALL_SPEC.md`](docs/API_PROXY_FIREWALL_SPEC.md) & [`infrastructure/proxy/egress_rules.json`](infrastructure/proxy/egress_rules.json) — Zero-trust proxy gateway and domain allowlist filtering external web access.
 * **🏗️ OpenTofu IaC Modules**: [`infrastructure/opentofu/`](infrastructure/opentofu/) — Modular OpenTofu configurations maximizing free allocations with zero-dollar spending limits and cost guardrails.
 * **⏳ Quota Refresh & Scheduler**: [`docs/QUOTA_REFRESH_SCHEDULE.md`](docs/QUOTA_REFRESH_SCHEDULE.md) & [`infrastructure/scripts/quota_scheduler.py`](infrastructure/scripts/quota_scheduler.py) — Rotation algorithms and reset timing synchronization (hourly, daily, monthly) for high availability without cloud spend.
 
