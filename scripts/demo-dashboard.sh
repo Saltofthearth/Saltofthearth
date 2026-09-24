@@ -73,13 +73,18 @@ show_md_layer() {
     echo -e "${CYAN}------------------------------------------------------------------------${RESET}\n"
 }
 
-show_gap_summary() {
-    echo -e "${BOLD}${RED}⚠️ IDENTIFIED GAPS & MISSING PIECES SUMMARY:${RESET}"
-    echo -e "  1. ${BOLD}[@rt/@cmd/init]${RESET} s6 supervision service directory tree templates needed for non-systemd userland init."
-    echo -e "  2. ${BOLD}[@rt/@cmd/fs]${RESET}   Automated ZFS snapshot-on-build hooks for instant environment rollback."
-    echo -e "  3. ${BOLD}[@ux/audio+ai]${RESET} PipeWire low-latency audio stream -> Whisper.cpp speech-to-intent bridge."
-    echo -e "  4. ${BOLD}[@ux/gui+acc]${RESET}  Azeron chorded keypad analog driver abstraction for Wayland compositors."
-    echo -e "  5. ${BOLD}[@md/memory]${RESET}   Predictive cache and storage tiering daemon for cold storage offloading."
+show_priority_hierarchy() {
+    echo -e "${BOLD}${MAGENTA}🎯 HIERARCHY OF PRIORITY WORK (ROADMAP):${RESET}"
+    echo -e "  ${BOLD}🏛️ PRIORITY #1: Repository Architecture (Core Substrate & Systems)${RESET}"
+    echo -e "    • ${BOLD}[@rt/@cmd/init]${RESET} Declarative s6 supervision service directory tree templates."
+    echo -e "    • ${BOLD}[@rt/@cmd/fs]${RESET}   Automated ZFS snapshot-on-build hooks for instant environment rollback."
+    echo -e "    • ${BOLD}[Infrastructure]${RESET} OpenTofu zero-cost cloud allocation & quota scheduler validation."
+    echo ""
+    echo -e "  ${BOLD}🤖 PRIORITY #2: AI Automation (Zero-Cost Sovereign AI Stack & Workflows)${RESET}"
+    echo -e "    • ${BOLD}[AI Router]${RESET}     LiteLLM zero-cost multi-provider router (Groq/Cerebras/Gemini/Ollama)."
+    echo -e "    • ${BOLD}[Agentic Work]${RESET}  Jules continuous integration, deep planning & pre-commit validation."
+    echo -e "    • ${BOLD}[@ux/audio+ai]${RESET} PipeWire audio stream -> Whisper.cpp speech-to-intent bridge."
+    echo -e "    • ${BOLD}[@ux/gui+acc]${RESET}  Azeron chorded keypad analog driver abstraction for Wayland compositors."
     echo -e "${CYAN}------------------------------------------------------------------------${RESET}\n"
 }
 
@@ -88,7 +93,7 @@ main() {
     show_rt_layer
     show_ux_layer
     show_md_layer
-    show_gap_summary
+    show_priority_hierarchy
     echo -e "${BOLD}To inspect or build specific shells via Nix:${RESET}"
     echo -e "  • Full Stack Shell : ${GREEN}nix develop .#default${RESET}"
     echo -e "  • @rt Layer Shell  : ${GREEN}nix develop .#rt${RESET}"
