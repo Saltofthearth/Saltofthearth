@@ -5,6 +5,71 @@
 
 ---
 
+## 🚀 Sovereign OS Taxonomy Stack Demo & Nix Architecture
+
+A declarative demo of the Sovereign OS stack architecture managed purely via the **Nix package manager** and **Flakes** (without requiring full NixOS).
+
+### 📐 Stack Hierarchy
+
+```
+Sovereign OS Architecture
+├── ⚡ @rt (Runtime / Base System Foundation)
+│   ├── 🔌 Boot, Drivers & Kernel Substrate (Limine, Booster, kmod, pciutils, usbutils)
+│   └── 💻 @cmd (Core Userland Execution Environment)
+│       ├── shell   : (Bash, Zsh, Nushell)
+│       ├── libs    : (Glibc, OpenSSL, Zlib, Ncurses)
+│       ├── init    : (Skarnet s6, s6-rc, Execline)
+│       ├── fs      : (OpenZFS, Ext4, Btrfs, FAT32)
+│       ├── utils   : (Toybox, Coreutils, Util-Linux)
+│       └── pkgman  : (Nix Package Manager)
+│
+├── 🎨 @ux (User Experience & HCI)
+│   ├── tui   : (Ratatui, Tmux, Htop, Fzf)
+│   ├── gui   : (Wayland, Sway, Hyprland, Foot, Mako)
+│   └── audio : (PipeWire, WirePlumber, Pavucontrol, ALSA)
+│
+└── 🧠 @md (Domain & System Management Modules)
+    ├── ai             : (Whisper.cpp, Ollama local inference)
+    ├── server         : (WireGuard mesh networking, Matrix decentralized comms)
+    ├── system config  : (Home-Manager declarative state, Git)
+    ├── manual         : (MdBook documentation engine, Man pages)
+    ├── accessibility  : (Evtest, Xdotool, Chorded hardware mappings)
+    ├── power manager  : (PowerTop, TLP predictive governor algorithms)
+    ├── customization  : (Pywal dynamic color themes & ricing)
+    ├── memory         : (Restic backups, IPFS decentralized archiving)
+    └── logs           : (Sysstat performance statistics, Audit logs)
+```
+
+### 🖥️ Running the Demo Dashboard
+
+Run the interactive stack dashboard and gap analysis tool:
+
+```bash
+# Executable dashboard launcher
+./scripts/demo-dashboard.sh
+
+# Or via Nix Flake
+nix run .#demo
+```
+
+### 🛠️ Entering Declarative Nix Shell Environments
+
+You can instantiate sub-shells for each specific layer or the full stack:
+
+```bash
+# Enter full stack shell
+nix develop .#default
+
+# Enter individual layer environments
+nix develop .#rt    # Runtime & @cmd userland shell
+nix develop .#ux    # Userland experience (TUI, GUI, Audio) shell
+nix develop .#md    # System domain & specialized modules shell
+```
+
+*For a full architectural breakdown and identified gaps, inspect [`STACK_ANALYSIS.md`](./STACK_ANALYSIS.md).*
+
+---
+
 ## 🔒 Cryptographic Identity & OpSec
 
 | Protocol / Platform | Identity / Address |
