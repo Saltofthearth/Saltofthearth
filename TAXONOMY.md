@@ -1,13 +1,62 @@
-# 🔬 Hierarchical Research Taxonomy & Open Source Ecosystem
+# 🔬 Hierarchical Research Taxonomy & System Architecture
 
-This document details the research fields, technical architecture, and software stack that form the foundation of our work in sovereign computing, information theory, computational linguistics, and human-computer interaction.
+This document details the research fields, 3-layer system architecture taxonomy, and open-source software stack that form the foundation of our work in sovereign computing, information theory, computational linguistics, and human-computer interaction.
+
+---
+
+## 💻 3-Layer System Architecture Taxonomy
+
+The operating system environment follows a 3-layer declarative taxonomy managed via the Nix package manager (without requiring a full NixOS installation) to provide reproducible, modular, and sovereign workstation configurations:
+
+```
+                            +-----------------------------------+
+                            |    @md (Domain Modules)           |
+                            |  AI, System Config, Servers, R&D  |
+                            +-----------------------------------+
+                                              |
+                                              v
+                            +-----------------------------------+
+                            |    @ux (User Experience & HCI)    |
+                            |  TUI, GUI, Audio, Hardware Input  |
+                            +-----------------------------------+
+                                              |
+                                              v
+                            +-----------------------------------+
+                            |    @rt (Runtime Substrate & @cmd) |
+                            | Shells, Coreutils, System Tooling |
+                            +-----------------------------------+
+```
+
+### 1. `@rt` — Runtime Substrate & Core Utilities
+- **Runtime Environment**: Core POSIX substrate, shell environments (Zsh/Bash/Fish), binary toolchains, environment environment drivers.
+- **`@cmd` Userland Utilities**: High-performance Rust/C CLI toolings (`ripgrep`, `fd`, `eza`, `bat`, `fzf`, `jq`, `git`, `gnupg`).
+- **Nix Declarative Substrate**: Nix Flakes & Home Manager modules anchoring tool versions deterministically across host distributions (Linux, OpenBSD, macOS).
+
+### 2. `@ux` — User Experience, HCI & Modalities
+- **TUI (Terminal User Interface)**: Terminal multiplexers (`tmux`, `zellij`), modal editors (`neovim`), ratatui-based monitors, and text-based navigation.
+- **GUI (Graphical User Interface)**: Wayland compositors (Sway, Hyprland), GPU-accelerated terminals (`alacritty`, `kitty`, `foot`), and minimalist desktop setups.
+- **Audio & Voice Processing**: PipeWire routing engine, low-latency DSP, spatial audio feedback, and local/cloud speech-to-intent engines.
+- **Hardware Sensing & Input**: Keymaps for custom ergonomics (Azeron keypad chords, thumbstick controllers), biometric telemetry, and spatial movement tracking.
+
+### 3. `@md` — Domain Modules & Research Subsystems
+- **AI & Agentic Systems**: Local LLM runners (`ollama`, `llama.cpp`), vector stores (`qdrant`, `lancedb`), agentic toolchains (`Jules`), multi-provider LiteLLM routing.
+- **Research & Knowledge Engine**: Archival tools, note-taking graph systems, LaTeX/Typst document compilers, and automated citation tools.
+- **System Configuration & Infrastructure**: Encrypted network meshes (`wireguard`, `tailscale`), Tor/I2P routing, self-hosted services, and declarative backup tools.
 
 ---
 
 ## 🏛️ Research Pillars
 
-Research Taxonomy ├── 1. Information Theory & Game Theory ├── 2. Linguistics, Phonetics & Assistive Technologies ├── 3. Functional Programming & Fullstack Integration ├── 4. World Knowledge Archiving & Category Fields ├── 5. Sovereignty, OpSec, Self-Hosting & DeFi ├── 6. Multimodal HCI, Novel UX & Hardware Sensing └── 7. Predictive Systems Management (Power & Storage)
-
+```
+Research Taxonomy
+├── 1. Information Theory & Game Theory
+├── 2. Linguistics, Phonetics & Assistive Technologies
+├── 3. Functional Programming & Fullstack Integration
+├── 4. World Knowledge Archiving & Category Fields
+├── 5. Sovereignty, OpSec, Self-Hosting & DeFi
+├── 6. Multimodal HCI, Novel UX & Hardware Sensing
+└── 7. Predictive Systems Management (Power & Storage)
+```
 
 ---
 
@@ -67,10 +116,10 @@ Research Taxonomy ├── 1. Information Theory & Game Theory ├── 2. Lin
 
 ## 🛠️ Open Source Ecosystem Map
 
-| Category | Primary Projects & Technologies |
+| Layer / Category | Primary Projects & Technologies |
 | :--- | :--- |
 | **Low-Level & Bootstrapping** | `coreboot`, `RISC-V`, `Limine`, `Booster`, `Toybox` |
-| **OS & Init Systems** | `OpenBSD`, `Skarnet s6` init suite, `Nix / NixOS`, `ZFS` |
-| **Display & Audio** | `Wayland` (Sway, Hyprland), `PipeWire` |
-| **Security & Cryptography** | `VeraCrypt`, `Ironclad`, `GnuPG` |
-| **Enterprise Integration** | `Odoo` ERP |
+| **OS, Substrate (`@rt`) & Init** | `OpenBSD`, `Skarnet s6` init suite, `Nix / NixOS`, `ZFS` |
+| **User Experience (`@ux`)** | `Wayland` (Sway, Hyprland), `PipeWire`, `Ratatui`, `Neovim` |
+| **Domain Subsystems (`@md`)** | `Ollama`, `LiteLLM`, `Qdrant`, `LanceDB`, `GnuPG`, `VeraCrypt` |
+| **Enterprise & Systems Logic** | `Odoo` ERP |

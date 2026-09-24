@@ -1,6 +1,6 @@
 # 🛠️ Sovereign & Autonomous AI Tooling Full Stack
 
-This document defines the architectural specification, provider taxonomy, quota limits, and multi-provider failover routing strategy for the **Zero-Cost Sovereign AI Tooling Full Stack**.
+This document defines the architectural specification, provider taxonomy, quota limits, and multi-provider failover routing strategy for the **Zero-Cost Sovereign AI Tooling Full Stack**—operating within the `@md` (Domain Modules) tier of the system architecture *(see [`TAXONOMY.md`](./TAXONOMY.md))*.
 
 Designed for high-throughput engineering, multimodal HCI, and autonomous agent orchestration driven by **Jules** alongside open-source local and cloud-free tier infrastructure.
 
@@ -89,7 +89,7 @@ To maximize productivity while incurring **$0 in API costs**, inference is distr
 
 | Modality | Primary Provider | Free Quotas & Performance | Integration Method |
 | :--- | :--- | :--- | :--- |
-| **Speech-to-Text** | **Groq Whisper API** (`whisper-large-v3`) | ~2,000 audio seconds/hour (Ultra-fast) | Voice-to-intent pipeline for TUI / terminal navigation. |
+| **Speech-to-Text** | **Groq Whisper API** (`whisper-large-v3`) | ~2,000 audio seconds/hour (Ultra-fast) | Voice-to-intent pipeline for TUI / terminal navigation (`@ux`). |
 | **Speech-to-Text** | **Whisper.cpp / Faster-Whisper** | Local / Unlimited | Offline voice command processing. |
 | **Vision & Audio** | **Google Gemini 2.0 Flash** | 15 RPM / 1M TPM free | Analyzing UI screenshots, architectural diagrams, and video telemetry. |
 

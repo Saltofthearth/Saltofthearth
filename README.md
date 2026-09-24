@@ -1,11 +1,19 @@
-# 👋 Welcome to My GitHub Profile
+# 👋 Saltofthearth — Sovereign Systems & Research
 
 > **Sovereign Systems Engineer, Computational Linguist & Systems Researcher**
-> *Exploring the intersection of Functional Programming, Information & Game Theory, Multimodal HCI, Digital Sovereignty, and AI-Augmented Engineering.*
+> *Architecting resilient systems at the intersection of Functional Programming, Information & Game Theory, Multimodal HCI, Digital Sovereignty, and AI-Augmented Engineering.*
 
 ---
 
-## 🔒 Cryptographic Identity & OpSec
+## 👤 Part I: Who I Am (Identity & Core Philosophy)
+
+### 🧘 Identity & Engineering Philosophy
+* **Sovereignty First**: Dedicated to digital self-determination, offline-first execution, and cryptographically verified systems.
+* **Declarative & Deterministic**: Prioritizing pure functional paradigms (Rust, Haskell, OCaml, Nix), strongly-typed invariants, and reproducible environments.
+* **Human-Centered Multimodal HCI**: Exploring novel interaction models—from high-density TUIs and chorded hardware input (Azeron keypad) to real-time audio and biometric telemetry.
+* **Autonomous Engineering**: Leveraging AI-driven agentic pipelines (**Jules**) to maximize productivity within zero-cost, multi-provider API free tiers without compromising operational security.
+
+### 🔒 Cryptographic Identity & OpSec
 
 | Protocol / Platform | Identity / Address |
 | :--- | :--- |
@@ -17,98 +25,63 @@
 
 ---
 
-## 🤖 AI-Augmented Productivity & Zero-Cost Sovereign AI Stack
+## 🔬 Part II: Work & Research Endeavors
 
-Leveraging next-generation AI tools, multi-provider free tiers, and agentic workflows driven by **Jules** to maximize developer productivity at $0 API cost *(see [`AI_STACK.md`](./AI_STACK.md) and [`AI_WORKFLOW.md`](./AI_WORKFLOW.md))*:
+Detailed specifications and architectural blueprints for research and engineering endeavors are organized into dedicated context files:
 
-* **Jules Autonomous Agent Pipeline**: End-to-end deep planning, code generation, refactoring, and deterministic test verification.
-* **Sub-Second Multi-Provider Inference**: Ultra-fast execution via Groq & Cerebras LPUs (300–2000 tok/s) paired with Gemini 2.0 Flash (1M context window) and OpenRouter fallback routing.
-* **Knowledge Retrieval & Web Search**: Real-time factual research via Tavily, Exa.ai, Jina Reader, and Qdrant/Pinecone vector indexes.
-* **Sovereign Local Fallback**: Zero-leakage offline fallback capabilities using local Ollama, llama.cpp, and embedded vector databases (LanceDB/DuckDB).
-* **Human-in-the-Loop Governance**: Strict OpSec, pre-commit verification procedures, and deterministic GPG signing.
+* 📖 [**`TAXONOMY.md`**](./TAXONOMY.md) — Hierarchical Research Taxonomy & 3-Layer OS Architecture (`@rt`, `@ux`, `@md`).
+* ⚡ [**`AI_STACK.md`**](./AI_STACK.md) — Multi-Provider Zero-Cost Sovereign AI Tooling Full Stack & Quota Router Specification.
+* 🤖 [**`AI_WORKFLOW.md`**](./AI_WORKFLOW.md) — Autonomous Development Workflow, Pre-Commit Guardrails & Jules Agent Pipeline.
 
 ---
 
-## 🔬 Hierarchical Research Taxonomy
+### 🏛️ Research Pillars Summary
 
-Research Framework ├── 🧠 Information Theory & Game Theory ├── 🗣️ Linguistics, Phonetics & Assistive Technologies ├── 💻 Functional Programming & Fullstack Integration ├── 📂 World Knowledge Archiving & Category Taxonomy ├── 🌐 Sovereignty, OpSec, Self-Hosting & DeFi ├── ⚡ Multimodal HCI & Hardware Sensing └── 🔋 Predictive Systems Management
+*(For complete field breakdowns, see [`TAXONOMY.md`](./TAXONOMY.md))*
 
-
-<details>
-<summary><b>1. 🧠 Information Theory & Game Theory</b></summary>
-
-- Shannon Entropy & Algorithmic Information Theory (AIT)
-- Strategic equilibrium models & mechanism design in peer-to-peer networks
-- Data compression limits and error-correcting codes
-</details>
-
-<details>
-<summary><b>2. 🗣️ Linguistics, Phonetics & Assistive Tech</b></summary>
-
-- Phonetic transcription, IPA systems, and speech synthesis models
-- Natural language structure, formal grammars, and semantics
-- Accessibility frameworks, assistive input mechanisms, and speech-to-intent engines
-</details>
-
-<details>
-<summary><b>3. 💻 Functional Programming & Fullstack Integration</b></summary>
-
-- Pure functional paradigms, category theory, and strongly typed systems (Rust, Haskell, OCaml, Elixir)
-- End-to-end type safety across distributed fullstack architectures
-- Immutable state management and declarative system modeling
-</details>
-
-<details>
-<summary><b>4. 📂 World Knowledge Archiving & Hierarchical Taxonomies</b></summary>
-
-- Systematic indexing and categorization of human knowledge
-- Distributed, long-term archival storage formats and metadata standards
-- Decoupled, tamper-evident document graphs and knowledge representation
-</details>
-
-<details>
-<summary><b>5. 🌐 Digital Sovereignty, OpSec, Self-Hosting & DeFi</b></summary>
-
-- Zero-trust architecture, threat modeling, and operational security (OpSec)
-- Decentralized finance (DeFi), cryptographic primitives, and smart contract safety
-- Sovereign self-hosting infrastructure, mesh networks, and encrypted communication channels
-</details>
-
-<details>
-<summary><b>6. ⚡ Multimodal HCI, Novel UX & Hardware Sensing</b></summary>
-
-- **Interfacing Modes**: TUIs (Terminal User Interfaces), GUIs, Audio & Speech interactions
-- **Input Hardware & Ergonomics**: Azeron keypad mapping, biometric sensors, speech recognition
-- **IoT & Telemetry**: Gyroscopic movement pattern analysis across mobile and IoT form factors
-- **Interface Personalization**: Ricing, extreme desktop customization, adaptive accessibility layouts
-</details>
-
-<details>
-<summary><b>7. 🔋 Predictive Systems Management</b></summary>
-
-- Predictive power consumption algorithms for mobile/embedded platforms
-- Intelligent storage tiering, cache prediction, and wear-leveling management
-- Dynamic resource allocation under energy and hardware constraints
-</details>
+```
+Research Framework
+├── 1. 🧠 Information Theory & Game Theory (Entropy, Mechanism Design, AIT)
+├── 2. 🗣️ Linguistics, Phonetics & Assistive Tech (IPA, Speech Engines, Intent Mappings)
+├── 3. 💻 Functional Programming & Fullstack (Type Theory, Monadic Architecture, Nix)
+├── 4. 📂 World Knowledge Archiving & Taxonomies (Ontologies, Immutable Storage)
+├── 5. 🌐 Sovereignty, OpSec & Self-Hosting (Zero-Trust, DeFi, Mesh Routing)
+├── 6. ⚡ Multimodal HCI, Novel UX & Sensing (TUIs/GUIs, Azeron Input, Telemetry)
+└── 7. 🔋 Predictive Systems Management (Power Profile Heuristics, Storage Tiering)
+```
 
 ---
 
-## 🛠️ Open Source Ecosystem & Projects of Interest
+### 💻 3-Layer Operating System Architecture
 
-| Layer / Domain | Projects & Technologies |
+Workstation environments are structured into a 3-layer declarative taxonomy managed via **Nix**:
+
+* **`@rt` — Runtime Substrate & `@cmd` Utilities**: Core POSIX substrate, Zsh/Bash shells, high-performance CLI binaries (`ripgrep`, `fd`, `eza`, `fzf`, `gnupg`).
+* **`@ux` — User Experience & HCI**: Wayland compositors (Sway/Hyprland), Ratatui/Curses TUIs, Neovim, PipeWire audio signal routing, Azeron chorded keymaps.
+* **`@md` — Domain Modules**: AI runners (`Ollama`, `LiteLLM`), research engines, system encryption (`VeraCrypt`, `WireGuard`), and self-hosted infrastructure.
+
+---
+
+### 🤖 Autonomous Zero-Cost Sovereign AI Pipeline
+
+Autonomous engineering workflows leverage multi-provider free tiers driven by **Jules** at $0 API cost:
+
+* **High-Throughput LPUs**: Sub-second execution via Groq & Cerebras LPUs (300–2000 tok/s) for code synthesis and agent tool loops.
+* **Massive Context Reasoning**: Gemini 2.0 Flash (1M context window) for repository-wide analysis and document processing.
+* **Dynamic Failover Router**: LiteLLM dynamic key rotation and fallback to OpenRouter free models and offline local runtimes (`Ollama`/`llama.cpp`).
+* **Deterministic Guardrails**: Pre-commit verification, linting, unit testing, and human GPG signature audits before commit approval.
+
+---
+
+### 🛠️ Open Source Stack & Tooling Matrix
+
+| Domain | Primary Projects & Technologies |
 | :--- | :--- |
-| **Firmware & Bootstrapping** | [coreboot](https://www.coreboot.org/) • [RISC-V](https://riscv.org/) • [Limine](https://limine-bootloader.org/) • [Booster](https://github.com/anatol/booster) • [Toybox](https://landley.net/toybox/) |
-| **OS, Init & System Architecture** | [OpenBSD](https://www.openbsd.org/) • [Skarnet s6 Suite](https://skarnet.org/software/s6/) • [Nix / NixOS](https://nixos.org/) • [ZFS](https://openzfs.org/) |
-| **Desktop & Audio/Video Stack** | [Wayland](https://wayland.freedesktop.org/) • [PipeWire](https://pipewire.org/) |
-| **Security & Cryptography** | [VeraCrypt](https://www.veracrypt.fr/) • [Ironclad](https://github.com/) |
-| **Enterprise Logic & ERP** | [Odoo](https://www.odoo.com/) |
-
----
-
-## 🛠️ Tech Stack & Tooling
-
-Languages & Paradigms: Rust | Haskell | OCaml | TypeScript | Elixir | C / C++ | Nix Systems & OS: OpenBSD | NixOS | Linux | Skarnet s6 | ZFS UX & Interaction: TUI / Curses | Wayland | PipeWire | Speech Engines | Azeron Security & Privacy: GPG / PGP | VeraCrypt | Matrix | Tor / I2P | WireGuard AI & Automation: Autonomous Agents | LLM Tooling | CI/CD | GitHub Actions
-
+| **Languages & Paradigms** | `Rust` • `Haskell` • `OCaml` • `TypeScript` • `Elixir` • `C/C++` • `Nix` |
+| **Low-Level & OS** | `OpenBSD` • `Nix / NixOS` • `Skarnet s6` • `ZFS` • `coreboot` • `RISC-V` |
+| **UX, HCI & Audio** | `Wayland` • `PipeWire` • `Ratatui` • `Neovim` • `Azeron Keypad` |
+| **Security & Sovereign Network** | `GnuPG` • `VeraCrypt` • `Matrix` • `WireGuard` • `Tor / I2P` |
+| **AI Subsystem** | `Jules` Agent • `LiteLLM` • `Ollama` • `Qdrant` • `LanceDB` • `Jina Reader` |
 
 ---
 
