@@ -53,7 +53,7 @@ This document outlines the workflow and tool integration framework leveraging mo
 
 ## 🧰 Modern Tooling Stack Integration
 
-*(For complete technical specifications, provider quotas, and multi-provider router configuration, see [`AI_STACK.md`](./AI_STACK.md)).*
+*(For complete technical specifications, provider quotas, and multi-provider router configuration, see [`AI_STACK.md`](./AI_STACK.md) and [`docs/AI_AUTOMATION_SPEC.md`](./docs/AI_AUTOMATION_SPEC.md)).*
 
 ### 1. Autonomous Agent Execution (Jules Driven)
 - **Task Decomposition & Planning**: Deep planning mode with multi-turn user confirmation before execution loops.

@@ -112,10 +112,9 @@ We maintain a fully researched, type-safe, and modular **Zero-Cost Multicloud In
 
 ---
 
-## 🤖 AI-Augmented Productivity & Modern Workflow
 ## 🤖 AI-Augmented Productivity & Zero-Cost Sovereign AI Stack
 
-Leveraging next-generation AI tools, multi-provider free tiers, and agentic workflows driven by **Jules** to maximize developer productivity at $0 API cost *(see [`AI_STACK.md`](./AI_STACK.md) and [`AI_WORKFLOW.md`](./AI_WORKFLOW.md))*:
+Leveraging next-generation AI tools, multi-provider free tiers, and agentic workflows driven by **Jules** to maximize developer productivity at $0 API cost *(see [`AI_STACK.md`](./AI_STACK.md), [`AI_WORKFLOW.md`](./AI_WORKFLOW.md), and [`docs/AI_AUTOMATION_SPEC.md`](./docs/AI_AUTOMATION_SPEC.md))*:
 
 * **Jules Autonomous Agent Pipeline**: End-to-end deep planning, code generation, refactoring, and deterministic test verification.
 * **Sub-Second Multi-Provider Inference**: Ultra-fast execution via Groq & Cerebras LPUs (300–2000 tok/s) paired with Gemini 2.0 Flash (1M context window) and OpenRouter fallback routing.
