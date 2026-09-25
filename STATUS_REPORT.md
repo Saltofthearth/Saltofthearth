@@ -61,7 +61,7 @@ Work is categorized into three distinct layers according to the system taxonomy 
 ### 1. `@rt` — Runtime Substrate & Core Utility Assets
 - **Declarative Nix Workstation Flakes**: Reproducible environment definitions anchoring CLI utilities (`ripgrep`, `fd`, `eza`, `fzf`, `gnupg`) across Linux, OpenBSD, and macOS without requiring full NixOS.
 - **Core POSIX & Shell Modules**: Hardened shell scripts, s6 service supervision trees, and ZFS/VeraCrypt storage automation scripts.
-- **Deterministic Build & Tooling Kits**: Standalone toolchains for Rust, Haskell, OCaml, and C/C++ cross-compilation.
+- **Deterministic Build & Tooling Kits**: Standalone toolchains for LLVM IR code generation, static `musl libc` binary compilation, Rust, Haskell, OCaml, and C/C++ cross-compilation.
 
 ### 2. `@ux` — User Experience, HCI & Audio Assets
 - **High-Density Modal TUIs**: Optimized Ratatui-based monitors and custom Neovim environments configured for modal editing and multi-file code synthesis.
@@ -88,7 +88,7 @@ The combination of sovereign architecture and autonomous AI capability enables a
 - **Deterministic Build & Supply-Chain Verification**: Establishing cryptographically signed, reproducible build pipelines with human-in-the-loop audit trails.
 
 ### 3. Functional Systems & High-Throughput HCI Development
-- **Custom Functional Software Development**: Engineering type-safe, fault-tolerant backend software in Rust, Haskell, OCaml, and Elixir.
+- **Custom Functional & Low-Level Software Development**: Engineering type-safe, fault-tolerant software leveraging LLVM IR optimization, `musl libc` static linking, Rust, Haskell, OCaml, and Elixir.
 - **Modal HCI & Ergonomic Input Engineering**: Designing tailored TUI/GUI interfaces, chorded hardware keymaps, and low-latency audio processing pipelines for high-velocity operators.
 
 ---

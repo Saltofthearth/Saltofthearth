@@ -78,8 +78,8 @@ Autonomous engineering workflows leverage multi-provider free tiers driven by **
 
 | Domain | Primary Projects & Technologies |
 | :--- | :--- |
-| **Languages & Paradigms** | `Rust` • `Haskell` • `OCaml` • `TypeScript` • `Elixir` • `C/C++` • `Nix` |
-| **Low-Level & OS** | `OpenBSD` • `Nix / NixOS` • `Skarnet s6` • `ZFS` • `coreboot` • `RISC-V` |
+| **Languages & Paradigms** | `Rust` • `Haskell` • `OCaml` • `TypeScript` • `Elixir` • `C/C++` • `Nix` • `LLVM IR` |
+| **Low-Level & OS** | `OpenBSD` • `Nix / NixOS` • `musl libc` • `Skarnet s6` • `ZFS` • `coreboot` • `RISC-V` |
 | **UX, HCI & Audio** | `Wayland` • `PipeWire` • `Ratatui` • `Neovim` • `Azeron Keypad` |
 | **Security & Sovereign Network** | `GnuPG` • `VeraCrypt` • `Matrix` • `WireGuard` • `Tor / I2P` |
 | **AI Subsystem** | `Jules` Agent • `LiteLLM` • `Ollama` • `Qdrant` • `LanceDB` • `Jina Reader` |

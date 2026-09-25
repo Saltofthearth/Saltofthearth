@@ -28,7 +28,7 @@ The operating system environment follows a 3-layer declarative taxonomy managed 
 ```
 
 ### 1. `@rt` — Runtime Substrate & Core Utilities
-- **Runtime Environment**: Core POSIX substrate, shell environments (Zsh/Bash/Fish), binary toolchains, environment environment drivers.
+- **Runtime Environment**: Core POSIX substrate, `musl libc` static runtime toolchains, `LLVM IR` compiler pipelines, shell environments (Zsh/Bash/Fish), binary toolchains, environment drivers.
 - **`@cmd` Userland Utilities**: High-performance Rust/C CLI toolings (`ripgrep`, `fd`, `eza`, `bat`, `fzf`, `jq`, `git`, `gnupg`).
 - **Nix Declarative Substrate**: Nix Flakes & Home Manager modules anchoring tool versions deterministically across host distributions (Linux, OpenBSD, macOS).
 
@@ -118,8 +118,8 @@ Research Taxonomy
 
 | Layer / Category | Primary Projects & Technologies |
 | :--- | :--- |
-| **Low-Level & Bootstrapping** | `coreboot`, `RISC-V`, `Limine`, `Booster`, `Toybox` |
-| **OS, Substrate (`@rt`) & Init** | `OpenBSD`, `Skarnet s6` init suite, `Nix / NixOS`, `ZFS` |
+| **Low-Level & Bootstrapping** | `coreboot`, `RISC-V`, `Limine`, `Booster`, `Toybox`, `LLVM IR` |
+| **OS, Substrate (`@rt`) & Init** | `OpenBSD`, `musl libc`, `Skarnet s6` init suite, `Nix / NixOS`, `ZFS` |
 | **User Experience (`@ux`)** | `Wayland` (Sway, Hyprland), `PipeWire`, `Ratatui`, `Neovim` |
 | **Domain Subsystems (`@md`)** | `Ollama`, `LiteLLM`, `Qdrant`, `LanceDB`, `GnuPG`, `VeraCrypt` |
 | **Enterprise & Systems Logic** | `Odoo` ERP |
